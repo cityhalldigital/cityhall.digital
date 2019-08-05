@@ -1,0 +1,43 @@
+:root {
+  --form-back-color: #fcfcfc;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
+}
+#hero {
+  height: calc(100vh - 54px);
+  padding: 0 10%;
+  background-color: #ffcb3c;
+  background-image: url("../img/hero-bg.png");
+  background-repeat: repeat;
+  align-items: center;
+}
+#hero h1 {
+  /* font-size: 4em; */
+  font-size: 2.5em;
+  font-weight: bold;
+}
+@media (min-width: 576px) {
+  #hero h1 {
+    font-size: 3em;
+  }
+}
+@media (min-width: 768px) {
+  #hero h1 {
+    font-size: 4em;
+  }
+}
+#logo {
+  background-image: url("../img/city-hall.svg");
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-size: contain;
+  vertical-align: -0.125em;
+}
+#hero p {
+  font-size: 2em;
+}
+footer {
+  margin: 0 2%;
+}
